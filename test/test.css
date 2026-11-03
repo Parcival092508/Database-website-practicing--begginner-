@@ -4,6 +4,13 @@
   
 }
 
+.sbt1 {
+  position: absolute;
+  top: 8px;
+  left: -75px;
+  
+}
+
 .bottom_centered {
   position: absolute;
   top: 51%;
@@ -31,19 +38,26 @@ margin-top: -27px ;
 .profile1 {
   display: flex ;
  align-items: flex-start;
+
 }
 .profile1content { 
- margin-left: 5px; margin-top: 2px; 
+ margin-left: 3px; margin-top: 2px; 
 }
 .john1by1 { 
   width: 185px;
   height: auto;
   flex-shrink: 0;
-  
+
 }
 .pf1description {
   margin-top: -25px;
 }
 p { 
   font-size: 100%;
+}
+
+.forusername {
+  position: absolute;
+left: 22px;
+top: 38px;
 }
