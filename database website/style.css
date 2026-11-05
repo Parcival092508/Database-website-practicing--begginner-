@@ -1,0 +1,85 @@
+/* ===== <body> ===== */
+body {
+  background-color: rgb(163, 248, 248);
+}
+
+/* ===== .webHeader ===== */
+.webHeader {
+  text-align: center;
+  width: 100%;
+}
+
+.webHeader {
+  width: 100%;
+  background-color: antiquewhite;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+/* ===== .search_and_query_system ===== */
+.search_and_query_system {
+  margin-top: 1px;
+  width: 177px;
+  border: 0px solid black;
+  /* display: none; */
+}
+
+/* ----- .Search_box (input) ----- */
+.Search_box {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ----- .Filtersystem ----- */
+
+.Filtersystem {
+  position: relative;
+}
+
+.filters1Button {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: left;
+  padding-left: 3px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-top: 3px;
+}
+
+.filters1Menu {
+  display: none;
+  text-decoration: none;
+  background-color: rgb(223, 223, 223);
+  position: absolute;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.filters1Menu a {
+  color: black;
+  text-decoration: none;
+  padding-left: 5px;
+  font-family: "Courier New", Courier, monospace;
+  display: block;
+  border-bottom: 2px solid transparent;
+  box-sizing: border-box;
+}
+
+/* -- Hover system -- */
+.filters1Button:hover {
+  border-bottom-color: rgb(253, 253, 253);
+  border-right-color: rgb(2, 178, 248);
+  border-left-color: rgb(2, 178, 248);
+  border-top-color: rgb(2, 178, 248);
+  background-color: rgb(2, 178, 248);
+}
+
+.filters1Menu a:hover {
+  border-color: rgb(253, 253, 253);
+  background-color: rgb(7, 167, 241);
+  opacity: 0.9;
+}
+
+.Filtersystem:hover .filters1Menu {
+  display: block;
+}
