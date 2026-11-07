@@ -1,50 +1,77 @@
 <!doctype html>
 
-<!-- (unfinished)this website has a total of 3 main parts as of rn, 
- the banner/headings, the search and query system(this will be a side panel or top stick panel on mobile), 
- and lastly, the actual database of students. -->
+<!-- (unfinished) This website has 3 main parts as of right now:
+     1. the banner/heading
+     2. the search and query system (side panel, or sticky top panel on mobile)
+     3. the actual database of students -->
 
-<html>
+<html lang="en">
   <head>
-    <title>12 - Athlon '26 Database(draft)</title>
+    <title>12 - Athlon '26 Database (draft)</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alex Li" />
+    <meta
+      name="description"
+      content="Database of grade 12 - Athlon, Computer System Servicing, Bacolod City National High School"/>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"/>
+    <script src="function.js" defer></script>
   </head>
 
-  <link rel="stylesheet" href="style.css" />
-  <script src="function.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
-
   <body>
+    <!-- ===== Header / Banner ===== -->
     <div class="webHeader">
-      <h2>Grade 12 Athlon School Year 2026 DataBase</h>   
+      <h2>Grade 12 Athlon School Year 2026 DataBase</h2>
     </div>
 
-    <!--next part or my own assignment will be making the search and query system as a side panel-->
-    <div class="search_and_query_system">
-      
-      <label for="search_and_query_system">Search & Query</label>
-      <form class="search_system" action="#">
-        <input class="Search_box" type="search" placeholder="Find anything here..."/>
-
-        <div class="Filtersystem">
-          <button class="filters1Button">Filters</button>
-          <div class="filters1Menu">
-            <a href="#">Query</a>
-            <a href="#">Query</a>
-            <a href="#">Query</a>
-            <a href="#">Query</a>
-            <a href="#">Query</a>
+    <!-- ===== Navigation bar / menu ===== -->
+    <div class="Navigation">
+      <div class="nav_system">
+        <div class="nav_bar_menu">
+          <!-- Toggle button -->
+          <div class="nav_bar_btn">
+            <button type="button" id="btn_1" aria-label="Toggle menu">
+              <i class="fa-solid fa-chevron-right" id="nav_icn"></i>
+            </button>
           </div>
 
-        </div>
+          <!-- Search and query system -->
+          <div class="search_and_query_system">
+            <form class="search_system" action="#">
+              <!-- Search row -->
+              <div class="search_row">
+                <label for="Search_box">Search</label>
+                <input
+                  id="Search_box"
+                  type="search"
+                  placeholder="Find anything here..."
+                />
+              </div>
 
-      </form>
-    
+              <!-- Filters dropdown -->
+              <div class="Filtersystem">
+                <button type="button" class="filters1Button">Filters</button>
+                <div class="filters1Menu">
+                  <a href="#">Query</a>
+                  <a href="#">Query</a>
+                  <a href="#">Query</a>
+                  <a href="#">Query</a>
+                  <a href="#">Query</a>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    
-    <!--This will be the main part of the website-->
-    <div>
+
+    <!-- ===== Main content (the student database) ===== -->
+    <div class="main_content">
       div div div div div for the main contents of the page
-    </div> 
-  
+    </div>
   </body>
 </html>

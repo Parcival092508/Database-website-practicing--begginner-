@@ -2,7 +2,16 @@
 /* multi line
 comment*/
 
-var sum = 67 + 21;
-console.log(sum);
-var difference = 21 - 67;
-console.log(difference);
+const navBtn = document.getElementById("btn_1");
+const navMenu = document.querySelector(".nav_bar_menu");
+
+navBtn.addEventListener("click", () => {
+  navMenu.classList.toggle("open");
+});
+
+const filterBtn = document.querySelector(".filters1Button");
+const filterSystem = document.querySelector(".Filtersystem");
+
+filterBtn.addEventListener("click", () => {
+  filterSystem.classList.toggle("open");
+});
