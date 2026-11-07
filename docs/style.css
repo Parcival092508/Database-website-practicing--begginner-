@@ -106,8 +106,8 @@ body {
 .filters1Menu {
   display: none; /* opened by the hover / tap rules in section 6 */
   position: absolute;
-  width: 99%;
-  margin-left: 1px;
+  width: 100%;
+  margin-left: 0px;
   background-color: antiquewhite;
 }
 
